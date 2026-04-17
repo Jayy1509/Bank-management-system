@@ -3,8 +3,13 @@ const path = require('path');
 
 // Initialize Oracle Thick Client (required for Native Network Encryption)
 try {
-  oracledb.initOracleClient({ libDir: path.join(__dirname, '..', 'instantclient_23_4') });
-  console.log('Oracle Thick Client initialized successfully.');
+  let clientOpts = {};
+  // Specify libDir only on Windows. On Linux (Render), we set LD_LIBRARY_PATH in Docker.
+  if (process.platform === 'win32') {
+    clientOpts = { libDir: path.join(__dirname, '..', 'instantclient_23_4') };
+  }
+  oracledb.initOracleClient(clientOpts);
+  console.log(`Oracle Thick Client initialized successfully on ${process.platform}.`);
 } catch (err) {
   console.error('Failed to initialize Oracle Thick Client:', err.message);
 }
