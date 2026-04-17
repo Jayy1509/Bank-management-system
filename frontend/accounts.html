@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accounts - Rana Bank</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Rana Bank</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="branches.html">Branches</a></li>
+        <li><a href="customers.html">Customers</a></li>
+        <li><a href="accounts.html" class="active">Accounts</a></li>
+        <li><a href="transactions.html">Transactions</a></li>
+        <li><a href="loans.html">Loans</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="glass-panel">
+      <h2>Create New Account</h2>
+      <div id="messageBox" class="message"></div>
+      <form id="accountForm">
+        <label>Account Number</label>
+        <input type="number" id="accNumber" required>
+
+        <label>Account Type</label>
+        <select id="accType">
+          <option value="Savings">Savings</option>
+          <option value="Checking">Checking</option>
+          <option value="Fixed Deposit">Fixed Deposit</option>
+        </select>
+
+        <label>Initial Balance</label>
+        <input type="number" step="0.01" id="accBalance" required>
+
+        <label>Opening Date</label>
+        <input type="date" id="accDate" required>
+
+        <label>Branch ID (E.g., 1 or 2)</label>
+        <input type="number" id="accBranch" required>
+
+        <label>Primary Customer ID (Owner)</label>
+        <input type="number" id="accCustId" required>
+
+        <button type="submit">Create Account</button>
+      </form>
+    </section>
+
+    <section class="glass-panel">
+      <h2>Account Directory</h2>
+      <table id="accountTable">
+        <thead>
+          <tr>
+            <th>Acc No</th>
+            <th>Type</th>
+            <th>Balance</th>
+            <th>Branch ID</th>
+            <th>Owner</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Dynamic -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="js/accounts.js"></script>
+</body>
+
+</html>

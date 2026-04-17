@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Management System - Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Rana Bank</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Dashboard</a></li>
+        <li><a href="branches.html">Branches</a></li>
+        <li><a href="customers.html">Customers</a></li>
+        <li><a href="accounts.html">Accounts</a></li>
+        <li><a href="transactions.html">Transactions</a></li>
+        <li><a href="loans.html">Loans</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="glass-panel text-center">
+      <h2>Welcome to Rana Bank Management System</h2>
+      <p style="color: var(--text-muted); margin-bottom: 2rem;">Manage customers, accounts, transactions, and loans
+        seamlessly.</p>
+
+      <div class="grid">
+        <div class="card" onclick="window.location.href='branches.html'">
+          <h3>🏢 Branches</h3>
+          <p>Add and manage bank branches</p>
+        </div>
+        <div class="card" onclick="window.location.href='customers.html'">
+          <h3>👥 Customers</h3>
+          <p>Add and view bank customers</p>
+        </div>
+        <div class="card" onclick="window.location.href='accounts.html'">
+          <h3>🏦 Accounts</h3>
+          <p>Create and manage bank accounts</p>
+        </div>
+        <div class="card" onclick="window.location.href='transactions.html'">
+          <h3>💸 Transactions</h3>
+          <p>Process deposits and withdrawals</p>
+        </div>
+        <div class="card" onclick="window.location.href='loans.html'">
+          <h3>📄 Loans</h3>
+          <p>Manage loan applications</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

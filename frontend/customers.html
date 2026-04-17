@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customers - Rana Bank</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Rana Bank</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="branches.html">Branches</a></li>
+        <li><a href="customers.html" class="active">Customers</a></li>
+        <li><a href="accounts.html">Accounts</a></li>
+        <li><a href="transactions.html">Transactions</a></li>
+        <li><a href="loans.html">Loans</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="glass-panel">
+      <h2>Add New Customer</h2>
+      <div id="messageBox" class="message"></div>
+      <form id="customerForm">
+        <label>Customer ID</label>
+        <input type="number" id="custId" required>
+
+        <label>Full Name</label>
+        <input type="text" id="custName" required>
+
+        <label>Address</label>
+        <input type="text" id="custAddress" required>
+
+        <label>Contact Number</label>
+        <input type="text" id="custContact" required>
+
+        <button type="submit">Add Customer</button>
+      </form>
+    </section>
+
+    <section class="glass-panel">
+      <h2>Customer Directory</h2>
+      <table id="customerTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Contact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Fetched dynamically -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="js/customers.js"></script>
+</body>
+
+</html>

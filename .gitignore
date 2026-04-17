@@ -1,0 +1,6 @@
+node_modules/
+.env
+instantclient_23_4/
+*.zip
+npm-debug.log
+.DS_Store

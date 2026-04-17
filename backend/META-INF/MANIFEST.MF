@@ -1,0 +1,105 @@
+Manifest-Version: 1.0
+Created-By: 11.0.16 (Oracle Corporation)
+
+Name: instantclient_23_4/uidrvci.sym
+SHA-256-Digest: dbm0Qc9qWUVA39HTMpFvPFrg8fD8/i3ngoQcOhLEi1c=
+
+Name: instantclient_23_4/extks.dll
+SHA-256-Digest: 7sZAWV0yX1eJrb0f4VeBa1zssB2zHDbvdhh65K0bYHU=
+
+Name: instantclient_23_4/oraocci23.dll
+SHA-256-Digest: 0prmBTRPCLvVCvt3nRd2RJdxDE2LkIEg9hco0IcHBdU=
+
+Name: instantclient_23_4/orannz.sym
+SHA-256-Digest: GKBhVunBo6rWXTaxN2pLcqoGouUo8cLoWprUfEPgVMI=
+
+Name: instantclient_23_4/ojdbc8.jar
+SHA-256-Digest: i3RxtUE3I3LfGqcq0IEwhpKTClR2C8AQOYFpLYChKTI=
+
+Name: instantclient_23_4/pkcs11.dll
+SHA-256-Digest: 7u0fp1JMbxKxWTAnfMuxVuUTnc+FKVo9SHuglJzc2vU=
+
+Name: instantclient_23_4/oraociei.dll
+SHA-256-Digest: 3E1AX9wDZxdMAgMvnJxZfFH7Q8mqBLFGotirjfQ2Ww8=
+
+Name: instantclient_23_4/oraocci23d.sym
+SHA-256-Digest: C/TxcDmMBSgxqBG83onYxsrocLA85Sw4/3PiIny0baw=
+
+Name: instantclient_23_4/uidrvci.exe
+SHA-256-Digest: sGbvxJBghAdm5E/G9Sk7COX+oKXB2y3RR6kEWRsjmxE=
+
+Name: instantclient_23_4/ocijdbc23.dll
+SHA-256-Digest: ePdRieDOiMTCnjIg1UcwoUORQoiw2fRLyisw2hfHzT4=
+
+Name: instantclient_23_4/orasql.sym
+SHA-256-Digest: U2PjEGeE9YrApAmthigeKjR3TVandebBvqcC+lYYsJ8=
+
+Name: instantclient_23_4/ojdbc11.jar
+SHA-256-Digest: UCeMiVlrvNu0mFgoFCdUSamdIN8sKaJTg8zVNbEtrAU=
+
+Name: instantclient_23_4/oci.dll
+SHA-256-Digest: 0pFij6d9ifUFSjlQJwvAV3w7iqkAtkdGQGSGVMwZv1A=
+
+Name: instantclient_23_4/oraociei.sym
+SHA-256-Digest: vize4+hyB5qym9wfvhr1SuBKlgpm8H50pmFG+KQaOmU=
+
+Name: instantclient_23_4/oraocci23.sym
+SHA-256-Digest: ap4+b7G4kiSYG2ONSFBDbaRMzlOzqVFNROe0ypW8MFE=
+
+Name: instantclient_23_4/oraocci23d.dll
+SHA-256-Digest: sdBzKlHwxb6cqWYdFsQV5oCUcU2SvJJIIGrzRdz2YAk=
+
+Name: instantclient_23_4/orannz.dll
+SHA-256-Digest: ZOc0daArmPoyl/ghpWNwpF6TS+DdLRH0Ov9WmgYQlDI=
+
+Name: instantclient_23_4/adrci.exe
+SHA-256-Digest: vFmS6W9rfmBXS5b2zS1i9S5qRqUQB+YSIEBmWFPiNcg=
+
+Name: instantclient_23_4/ociw32.dll
+SHA-256-Digest: ncdenMaMfEUybuyuytM8w9uShWFBQf5wyxjVx23qsEU=
+
+Name: instantclient_23_4/ucp.jar
+SHA-256-Digest: gkHAyjVL9YpH7+LuwMLc6JZxBcWQrKbktJJbQnJfS+0=
+
+Name: instantclient_23_4/BASIC_README
+SHA-256-Digest: R6lXIkBL3ThfOmkcI9BAssEvLjrQuEBwfImiC8Ofjcc=
+
+Name: instantclient_23_4/legacy.dll
+SHA-256-Digest: kwDLGSmjezsil+EPhgYHiy60uTJrBcc0x6L6q/4GPmM=
+
+Name: instantclient_23_4/xstreams.jar
+SHA-256-Digest: 552kWqZcJcKWcwcDeOihqi3a9GVA/LA6NvIGAVuyvX4=
+
+Name: instantclient_23_4/network/admin/README
+SHA-256-Digest: f29CAh3RXyRb3CUgcp1IYYwgGwhGOen4YLtDdFBx7tQ=
+
+Name: instantclient_23_4/oci.sym
+SHA-256-Digest: oBl2mD6E8Ub1QvwEj5QNkfb0Vvx9xAQqzgmJZp7ZKFk=
+
+Name: instantclient_23_4/BASIC_LICENSE
+SHA-256-Digest: XMJiqENy1VhDnne9YNY/XC8rNC8aCowpol1pWeZH43U=
+
+Name: instantclient_23_4/fips.dll
+SHA-256-Digest: ts3x8d1BHuS25KwgnUBwKdjWbaOI0cd+igUC/WXtmlA=
+
+Name: instantclient_23_4/genezi.exe
+SHA-256-Digest: 0tJNMiPBRUsoEtHREAEPxG804WP6k84hPdpeEWr5CI0=
+
+Name: instantclient_23_4/ociw32.sym
+SHA-256-Digest: wlXn4Sa8zSl2GmVssH4U7LTluSrjvRWxykH2Zk6iJPY=
+
+Name: instantclient_23_4/orasql.dll
+SHA-256-Digest: QTetqcVIWycPP+v3FtKYg3fmf130rdHoLqkaUfzHi1c=
+
+Name: instantclient_23_4/genezi.sym
+SHA-256-Digest: w+hzxj1eMlR568Fa+bAuAbLVPQdSpjVhb1EoOLitCh4=
+
+Name: instantclient_23_4/adrci.sym
+SHA-256-Digest: fhAlcYpi3ERYQKosd0MEsaqoodgvhiKJ4ry1WzLVx64=
+
+Name: instantclient_23_4/ocijdbc23.sym
+SHA-256-Digest: Qu5bwdEyjOpMfN284+IBu2osEhZ79wiqyUEFyVzGS60=
+
+Name: instantclient_23_4/ucp11.jar
+SHA-256-Digest: 0pw80PwoV4W5IixzzKP509gVUGnjKgma4ukv/uv0Pf4=
+

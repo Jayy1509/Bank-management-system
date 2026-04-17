@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transactions - Rana Bank</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Rana Bank</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="branches.html">Branches</a></li>
+        <li><a href="customers.html">Customers</a></li>
+        <li><a href="accounts.html">Accounts</a></li>
+        <li><a href="transactions.html" class="active">Transactions</a></li>
+        <li><a href="loans.html">Loans</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="glass-panel">
+      <h2>Process Transaction</h2>
+      <div id="messageBox" class="message"></div>
+      <form id="transForm">
+        <label>Transaction ID</label>
+        <input type="number" id="transId" required>
+
+        <label>Account Number</label>
+        <input type="number" id="transAcc" required>
+
+        <label>Type</label>
+        <select id="transType">
+          <option value="Deposit">Deposit</option>
+          <option value="Withdraw">Withdraw</option>
+        </select>
+
+        <label>Amount</label>
+        <input type="number" step="0.01" id="transAmount" required>
+
+        <label>Date</label>
+        <input type="date" id="transDate" required>
+
+        <button type="submit">Submit Transaction</button>
+      </form>
+    </section>
+
+    <section class="glass-panel">
+      <h2>Recent Transactions</h2>
+      <table id="transTable">
+        <thead>
+          <tr>
+            <th>Trans ID</th>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Date</th>
+            <th>Account No</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Dynamic -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="js/transactions.js"></script>
+</body>
+
+</html>
