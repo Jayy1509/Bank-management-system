@@ -1,22 +1,12 @@
-# Use a Debian-based image for compatibility with Oracle Instant Client
-FROM node:18-bullseye-slim
+# Use Oracle Linux 8 as the base image for robust Oracle Client support
+FROM oraclelinux:8
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    libaio1 \
-    unzip \
-    wget \
-    && rm -rf /var/lib/apt/lists/*
-
-# Install Oracle Instant Client for Linux x64
-WORKDIR /opt/oracle
-RUN wget https://download.oracle.com/otn_software/linux/instantclient/2114000/instantclient-basiclite-linuxx64.zip && \
-    unzip instantclient-basiclite-linuxx64.zip && \
-    rm -f instantclient-basiclite-linuxx64.zip && \
-    mv instantclient_* instantclient
-
-# Set the library path so the app can find the Oracle client
-ENV LD_LIBRARY_PATH=/opt/oracle/instantclient
+# Install Node.js 18 and Oracle Instant Client Basic Lite
+RUN dnf install -y oracle-nodejs-release-el8 && \
+    dnf install -y nodejs && \
+    dnf install -y oracle-instantclient-release-el8 && \
+    dnf install -y oracle-instantclient-basiclite && \
+    dnf clean all
 
 # Set working directory for the app
 WORKDIR /usr/src/app
